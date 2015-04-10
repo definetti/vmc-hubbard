@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1424533264 source:/home/lorenzo/Copy/MasterBooks/sissa/simulations/vmc-hubbard/src/objects.cpp
+	"objects.h"
+	<stdlib.h>
+	<time.h>
+
+1424536934 /home/lorenzo/Copy/MasterBooks/sissa/simulations/vmc-hubbard/include/objects.h
+	<stdlib.h>
+	<armadillo>
+	<time.h>
+
+1424696574 source:/home/lorenzo/Copy/MasterBooks/sissa/simulations/vmc-hubbard/main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	<stdlib.h>
+	<armadillo>
+	<time.h>
+	"objects.h"
+	"evolve.h"
+	"pp.h"
+
+1424693350 /home/lorenzo/Copy/MasterBooks/sissa/simulations/vmc-hubbard/include/evolve.h
+	"objects.h"
+	<stdlib.h>
+	<time.h>
+	<armadillo>
+
+1424693350 source:/home/lorenzo/Copy/MasterBooks/sissa/simulations/vmc-hubbard/src/evolve.cpp
+	<stdlib.h>
+	<time.h>
+	"evolve.h"
+
+1424696480 /home/lorenzo/Copy/MasterBooks/sissa/simulations/vmc-hubbard/include/pp.h
+	<stdlib.h>
+	<armadillo>
+	<time.h>
+
+1424534132 source:/home/lorenzo/Copy/MasterBooks/sissa/simulations/vmc-hubbard/src/pp.cpp
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	"pp.h"
+
