@@ -116,7 +116,7 @@ int Evolve::propose_hop_random() //iconf is untouched, produces leave, arrive, g
 
     if(iconf(start)==1 && chooser_if_double==0)
     {
-    return 0;
+    return 0; //this and the following are crucial. not posing them means probability is not symmetric (singly occupied start site means always hop, doubly means 50% hop!!)
     }
 
     if(iconf(start)==-1 && chooser_if_double==1)

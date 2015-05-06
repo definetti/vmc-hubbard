@@ -5,15 +5,7 @@
 		<Option title="vmc-hubbard" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
-		<Option show_notes="1">
-			<notes>
-				<![CDATA[CHECK
-
-Evolution functions
-Condizione iniziale sul determinante (vedi note)
-]]>
-			</notes>
-		</Option>
+		<Option show_notes="1" />
 		<Build>
 			<Target title="Debug">
 				<Option output="bin/Debug/vmc-hubbard" prefix_auto="1" extension_auto="1" />
