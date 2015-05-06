@@ -40,9 +40,9 @@ param PP::jackknife (int PASSI, vec v){
 		}
 	}
 
-	for(i=0;i<PASSI;i++) //calculates the mean of the previous quantities and stores in return variable
+	for(i=0;i<BINS;i++) //calculates the mean of the previous quantities and stores in return variable
 	{
-		result.first+=v(i)/PASSI;
+		result.first+=binsvector(i)/BINS;
 	}
 
 	for(i=0;i<BINS;i++) //calculate jackknife variance and error and stores in return variable
